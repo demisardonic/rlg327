@@ -1,0 +1,55 @@
+Brian Lindsay 
+Roguelike ASCII RPG with Dungeon Generation, ASCII Graphics, FILE I/O, and Monster AI, and player control
+
+Compilation
+make: compiles all source files and generates exicutable binary named rogue
+make clean: removes all objects and the binary
+
+Specifications 1.07
+rlg327 reads file $HOME/.rlg327/monster_desc.txt and outputs any valid monster.
+
+Hierarchy
+	core.cpp core.h	
+	util.cpp util.h
+	room.cpp room.h	
+	path.cpp path.h
+	dungeon.cpp dungeon.h
+	point.cpp point.h
+	heap.cpp heap.h
+	dijkstra.cpp dijkstra.h
+	turn.cpp turn.h
+	character.cpp character.h
+	move.cpp move.h
+	dice.cpp dice.hpp
+	debug.cpp debug.h
+	monster.cpp monster.hpp
+	ui.cpp ui.h
+	pc.cpp pc.h
+	npc.cpp npc.h
+	main.cpp
+	CHANGELOG
+	Makefile
+	MANUAL
+	
+Usage 
+	./rogue [--seed s] [--load] [--save] [--nummon mon]
+	s: forces dungeon to be generated with given seed
+	--load reads dungeon file found in  HOME/.rlg327/dungeon
+	       does not create .rlg327 directory
+	--save saves the current dungeon to the above directory before printing
+	--nummom gives number of monsters
+	
+	[--load file_path]
+		defaults to home/.rlg327/dungeon if not path
+
+	[--save file_path]
+		defaults to home/.rlg327/dungeon if not path
+	
+	[--nummon number]
+		number of monsters
+	
+	[--seed seed]
+		seed used in generation
+		
+	[--help | -h]
+		help page

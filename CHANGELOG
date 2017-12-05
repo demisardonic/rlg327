@@ -1,0 +1,107 @@
+Brian Lindsay Assignment 1.05
+
+###############
+Assignment 1.07
+###############
+
+================
+28 March 2016
+================
+Added Monster class
+Added Dice Class
+Added Monster Parsing from monster_desc.txt
+
+================
+24 March 2016
+================
+Began using Yuxiang Zhang's 1.06 Source
+Changed Extensions to cpp from c
+Added Casts to all malloc calls
+
+###############
+Assignment 1.06
+###############
+
+================
+29 February 2016
+================
+Changed Makefile to handle C++ source files
+Began C++ implementation
+
+###############
+Assignment 1.05
+###############
+
+================
+29 February 2016
+================
+Added capital 'S', '<', and '>' alongside 's', ',', and '.'
+Changed Makefile to handle c++ source files
+
+================
+26 February 2016
+================
+Implemented full dungeon clean up
+Implemented dungeon regeneration
+Implemented Color Printing
+Implemented PC control
+Implemented monster type location printing with scroling
+
+================
+24 February 2016
+================
+Switched to Yuxiang Zhang's Source
+Began changing Yuxiang's implementation to ncurses
+
+###############
+Assignment 1.04
+###############
+
+================
+17 February 2016
+================
+Began implementation of monsters
+
+================
+2 February 2016
+================
+Fixed bug with using save and rf commandline arguments without values but with other commandline arguments instead. ie ./rogue --seed --load
+
+================
+29 January 2016
+================
+Add array to store hardness of values
+Switched dungeon array from column-major format to row-major format
+Completed file read and write for dungeon
+
+================
+28 January 2016
+================
+Implemented Simple file output ie. printing RLG327 to designated file
+Changed Makefile to a more modular format for compiling object, similar to the professors Makefile from Assignment-1.01
+
+================
+26 January 2016
+================
+Fixed bug where less than five rooms could be generated
+
+================
+25 January 2016
+================
+Implemented system to connect rooms with = corridors
+Implemented system for printing colored characters
+
+================
+17 January 2016
+================
+Changed project to multiple source file system
+Implemented dungeon.h and rogue.c
+Corrected Makefile to compile all source and then link
+
+================
+14 January 2016
+================
+Started Project
+Implemented Seed command line argument
+Implemented Room generation
+Initial Makefile

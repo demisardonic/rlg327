@@ -1,0 +1,57 @@
+//
+===========================
+Rogue-like Game Help Manual
+===========================
+
+NAME
+	rogue -- rogue like game
+
+DESCRIPTION
+  When program is executed, a randomly generated dungeon of size 
+  21 * 80 will be generated and displayed. The character '@' is you.
+  Move the player with the numpad or with
+    h or 4 LEFT
+    y or 7 UP LEFT
+    k or 8 UP
+    u or 9 UP RIGHT
+    l or 6 RIGHT
+    n or 3 DOWN RIGHT
+    j or 2 DOWN
+    b or 1 DOWN LEFT
+
+  Press corrisponding < and > keys while over their respective floor
+  tiles to traverse up and down to new dungeon layouts
+
+  m to print the locations of the monsters with the up and down arrow
+  keys moving through the list
+  escape to exit the list mode and regain player control
+
+  s to save and exit the game
+	 
+USAGE
+  rogue [options]
+
+OPTIONS
+  [--load file_path]
+    defaults to home/.rlg327/dungeon if not path
+
+  [--save file_path]
+    defaults to home/.rlg327/dungeon if not path
+	
+  [--nummon number]
+    number of monsters
+	
+  [--seed seed]
+    seed used in generation
+		
+  [--help | -h]
+    help page
+		
+  [--cheat]
+    invincible PC
+
+  [--debug]
+    debug mode
+	
+	
+		
